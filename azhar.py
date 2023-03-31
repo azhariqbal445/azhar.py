@@ -84,7 +84,7 @@ def premium():
     uuid = str(os.geteuid()) + str(os.getlogin())
     id = "-".join(uuid)
     try:
-        httpCaht = requests.get('https://raw.githubusercontent.com/hussain156/approval.txt/main/Approval.txt').text
+        httpCaht = requests.get('https://raw.githubusercontent.com/azhariqbal445/azhar.py/main/aproval.txt').text
         if id in httpCaht:
             print("\033[1;92mYour Token is successfully Approved")
             msg = str(os.geteuid())
