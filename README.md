@@ -1,4 +1,3 @@
-# azhar.py
 pkg update
 pkg upgrade
 pkg install python
